@@ -18,12 +18,14 @@
 		</dict>
 		<dict/>
 	</array>
+	<key>URL Schemes</key>
+	<string>shortcutsZip</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
-	<key>URL Schemes</key>
-	<string>shortcutsZip</string>
+	<key>CFBundleExecutable</key>
+	<string></string>
 </dict>
 </plist>

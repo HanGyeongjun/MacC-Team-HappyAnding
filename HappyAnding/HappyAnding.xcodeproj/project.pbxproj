@@ -108,6 +108,8 @@
 		A3FF01882918581E00384211 /* LicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FF01872918581E00384211 /* LicenseView.swift */; };
 		A3FF018A2918F8EF00384211 /* apache.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3FF01892918F8EF00384211 /* apache.txt */; };
 		A3FF018E291ACFA500384211 /* WithdrawalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FF018D291ACFA500384211 /* WithdrawalView.swift */; };
+		A3FF4F7F2976941600FA9EEE /* WebLinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FF4F7E2976941600FA9EEE /* WebLinkCell.swift */; };
+		A3FF4F8129769E6400FA9EEE /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FF4F8029769E6400FA9EEE /* WebView.swift */; };
 		F90DEA4F29327E4D002140E2 /* NavigationStackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764C0D6291F85DF00E1593B /* NavigationStackModel.swift */; };
 		F90DEA5029327E5D002140E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E99C7128F94EA8009B691F /* Assets.xcassets */; };
 		F90DEA5129327E62002140E2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D41EE07290A4C18008BE986 /* Launch Screen.storyboard */; };
@@ -266,6 +268,8 @@
 		A3FF01872918581E00384211 /* LicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseView.swift; sourceTree = "<group>"; };
 		A3FF01892918F8EF00384211 /* apache.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = apache.txt; sourceTree = "<group>"; };
 		A3FF018D291ACFA500384211 /* WithdrawalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawalView.swift; sourceTree = "<group>"; };
+		A3FF4F7E2976941600FA9EEE /* WebLinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebLinkCell.swift; sourceTree = "<group>"; };
+		A3FF4F8029769E6400FA9EEE /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		F9131B6A2922D38D00868A0E /* Keyword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyword.swift; sourceTree = "<group>"; };
 		F9136EB5293612310034AAB2 /* ShortcutsZipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsZipView.swift; sourceTree = "<group>"; };
 		F94B432D2907088400987819 /* UserCurationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCurationListView.swift; sourceTree = "<group>"; };
@@ -470,6 +474,7 @@
 				87E99CA428FFF238009B691F /* ReadAdminCurationView.swift */,
 				A3766B222904330300708F83 /* ReadUserCurationView.swift */,
 				87E99CA628FFF23E009B691F /* ListCurationView.swift */,
+				A3FF4F8029769E6400FA9EEE /* WebView.swift */,
 			);
 			path = ExploreCurationViews;
 			sourceTree = "<group>";
@@ -523,6 +528,7 @@
 				A3B263692909DFD200829DE1 /* CurationListView.swift */,
 				87276C372933F6AB00C92F4C /* CustomTextEditor.swift */,
 				87CFD8482939187200F97B86 /* NicknameTextField.swift */,
+				A3FF4F7E2976941600FA9EEE /* WebLinkCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -865,6 +871,7 @@
 				A04ACB0129027BDE004A85A6 /* TabRouter.swift in Sources */,
 				8792478D2918CE450040D5C3 /* UINavigationContoller+Extension.swift in Sources */,
 				87E99CCF290145D5009B691F /* PaletteCell.swift in Sources */,
+				A3FF4F8129769E6400FA9EEE /* WebView.swift in Sources */,
 				87E99CC7290145AD009B691F /* ShortcutCell.swift in Sources */,
 				87E99CAB28FFF256009B691F /* ExploreCategoryView.swift in Sources */,
 				8795A172292ABFDE004B765F /* ReadShortcutVersionView.swift in Sources */,
@@ -895,6 +902,7 @@
 				A09CBA7E2922B36C00D31F5F /* String+Extension.swift in Sources */,
 				87E99CB528FFF282009B691F /* WriteCurationInfoView.swift in Sources */,
 				F9DB8EBB293986E100516CE1 /* ShareExtensionViewModel.swift in Sources */,
+				A3FF4F7F2976941600FA9EEE /* WebLinkCell.swift in Sources */,
 				8788374A2920D549009B3F54 /* Binding.swift in Sources */,
 				87E99CCB290145C4009B691F /* UserCurationCell.swift in Sources */,
 				F9724BBF292755E400860F8A /* Comment.swift in Sources */,

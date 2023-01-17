@@ -14,6 +14,7 @@ struct ExploreCurationView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 0) {
+                WebLinkCell()
                 
                 //앱 큐레이션
                 adminCurationsFrameiew(adminCurations: shortcutsZipViewModel.adminCurations)
