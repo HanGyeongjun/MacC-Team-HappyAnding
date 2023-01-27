@@ -15,7 +15,7 @@ struct WebLinkCell: View {
                     .frame(maxWidth: .infinity, minHeight: 60)
                     .background(Color.Primary)
                     .foregroundColor(.white)
-                    .cornerRadius(16, antialiased: true)
+                    .cornerRadius(16)
             }
         }
         .padding(.horizontal, 16)
